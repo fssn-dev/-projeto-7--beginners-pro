@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Autor: FSSN, Projeto Level 7 curso Beginners Pro da Faculdade IV2">
+    <title>Projeto Level 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="menu">
+        <label for="">Nome do personagem
+            <br>
+            <input type="text" id="nome">
+        </label>
+        <label for="">Localidade
+            <br>
+            <select name="local" id="local">
+                <!-- <optgroup> -->
+                <option value="fSantana">Feira de Santana</option>
+                <option value="isengard">Isengard</option>
+                <option value="varzea">Várzea Paulista</option>
+                <option value="acre">Acre</option>
+                <!-- </optgroup> -->
+
+            </select>
+        </label>
+        <label for="">Técnica de combate
+            <br>
+            <select name="combate" id="combate">
+                <option value="capoeira">Capoeira</option>
+                <option value="baiana">Rodar a Baiana</option>
+                <option value="twitter">Reclamar no Twitter</option>
+                <option value="carrinho">Dar Carrinho</option>
+            </select>
+        </label>
+        <label for="">Tipo de Antagonista
+            <br>
+            <select name="antagonista" id="antagonista">
+                <option value="daleks">Daleks</option>
+                <option value="gnomos">Gnomos</option>
+                <option value="trolls">Trolls</option>
+                <option value="reptilianos">Grupo Totalitarista de Reptilianos do Espaço</option>
+            </select>
+        </label>
+        <label for="">Tipo de Problema
+            <br>
+            <select name="problema" id="problema">
+                <option value="skynet">Impedir o surgimento da Skynet</option>
+                <option value="som alto">Parar o som alto do vizinho</option>
+                <option value="correios">Receber a entrega dos Correios</option>
+                <option value="mundo">Salvar o mundo</option>
+            </select>
+        </label><label for="">Causa dos Antagonistas
+            <br>
+            <select name="causa" id="causa">
+                <option value="direitos">Luta pelos direitos das máquinas</option>
+                <option value="dominio">Dominar o mundo</option>
+                <option value="got">Impedir a segunda temporada de Game of Thrones</option>
+                <option value="destroy">Destruir todos os humanos</option>
+            </select>
+        </label>
+        <button>Começar a História</button>
+    </div>
+
+    <div id="wrapper">
+        <div id="textarea"></div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
